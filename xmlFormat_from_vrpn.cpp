@@ -53,7 +53,6 @@ int main()
     {
         tracker->mainloop();
         button->mainloop();
-        // Sleep for a short period to avoid hogging the CPU
         vrpn_SleepMsecs(10);
     }
 
